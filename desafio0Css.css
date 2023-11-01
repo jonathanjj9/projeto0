@@ -1,0 +1,131 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 44px 0px 100px 76px;
+}
+
+.link-header {
+    color: #989D9C;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 27px;
+    margin-right: 23px;
+    cursor: pointer;                                    
+}
+
+.button-header {
+    color: #ffffff;
+    background: #665AE1;
+    border-radius: 20.5px;
+    font-size: 24px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.img-logo {
+    margin-left: 125px;
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #515151;
+    font-weight: 900;
+    line-height: 130px;
+    font-size: 100px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 122px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    margin-top: 32;
+    margin-bottom: 65px;
+}
+
+.button-section {
+    border-radius: 30px;
+    background: #ADFF00;
+    border: none;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    filter:drop-shadow(0px 4px 4px rgb( 0,0,0,0.25));
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+@media(max-width: 775px){
+  
+     header{
+        display: none;
+     }
+    
+     .img-logo{
+        margin-top: 145px;
+        margin-left: 14px;
+        margin-right: 22px;
+        width: 90%;
+        height: 100%;
+        
+
+     }
+
+     h1{
+        font-size: 100px;
+        font-weight: 900;
+        margin-left: 14px;
+        margin-right: 22px;
+        margin-bottom: none;
+     }
+
+     p{
+        display: none;
+     }
+
+     h1{
+        text-align: center
+     }
+
+     h2{
+        text-align: center
+     }
+
+      .button-section{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 100px;
+        font-size: 50px;
+        
+        
+        
+      }
+
+     
+}
